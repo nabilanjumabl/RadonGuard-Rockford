@@ -37,9 +37,9 @@ export function MitigationPage() {
       <SEO
         pageKey="mitigation"
         breadcrumbs={[
-          { name: 'Home', url: 'https://radonguardrockford.com/' },
-          { name: 'Services', url: 'https://radonguardrockford.com/services/mitigation' },
-          { name: 'Mitigation Installation', url: 'https://radonguardrockford.com/services/mitigation' },
+          { name: 'Home', url: 'https://radon-guard-rockford.vercel.app/' },
+          { name: 'Services', url: 'https://radon-guard-rockford.vercel.app/services/mitigation' },
+          { name: 'Mitigation Installation', url: 'https://radon-guard-rockford.vercel.app/services/mitigation' },
         ]}
         additionalSchema={generateFAQSchema(mitigationFAQs)}
       />

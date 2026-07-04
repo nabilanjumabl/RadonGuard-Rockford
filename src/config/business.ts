@@ -7,7 +7,7 @@ export const businessConfig = {
   address: '4215 Charles Street, Rockford, IL 61108',
   phone: '(815) 555-0142',
   phoneFormatted: '(815) 555-0142',
-  email: 'info@radonguardrockford.com',
+  email: 'info@radon-guard-rockford.vercel.app',
 
   // Service Area
   primaryArea: 'Rockford, IL',
@@ -58,7 +58,7 @@ export const businessConfig = {
   },
 
   // Website URL (for canonical tags and OG)
-  websiteUrl: 'https://radonguardrockford.com',
+  websiteUrl: 'https://radon-guard-rockford.vercel.app',
 };
 
 // Format phone for tel: links

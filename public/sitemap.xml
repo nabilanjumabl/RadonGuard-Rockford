@@ -1,67 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://radonguardrockford.com/</loc>
+    <loc>https://radon-guard-rockford.vercel.app/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://radonguardrockford.com/services/short-term-testing</loc>
+    <loc>https://radon-guard-rockford.vercel.app/services/short-term-testing</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://radonguardrockford.com/services/mitigation</loc>
+    <loc>https://radon-guard-rockford.vercel.app/services/mitigation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://radonguardrockford.com/services/real-estate</loc>
+    <loc>https://radon-guard-rockford.vercel.app/services/real-estate</loc>
     <changefreq>monthly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://radonguardrockford.com/services/post-mitigation</loc>
+    <loc>https://radon-guard-rockford.vercel.app/services/post-mitigation</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://radonguardrockford.com/services/commercial</loc>
+    <loc>https://radon-guard-rockford.vercel.app/services/commercial</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://radonguardrockford.com/radon-risk-calculator</loc>
+    <loc>https://radon-guard-rockford.vercel.app/radon-risk-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://radonguardrockford.com/radon-testing-cost-calculator</loc>
+    <loc>https://radon-guard-rockford.vercel.app/radon-testing-cost-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://radonguardrockford.com/radon-mitigation-cost-calculator</loc>
+    <loc>https://radon-guard-rockford.vercel.app/radon-mitigation-cost-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://radonguardrockford.com/radon-retest-calculator</loc>
+    <loc>https://radon-guard-rockford.vercel.app/radon-retest-calculator</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://radonguardrockford.com/tools</loc>
+    <loc>https://radon-guard-rockford.vercel.app/tools</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://radonguardrockford.com/about</loc>
+    <loc>https://radon-guard-rockford.vercel.app/about</loc>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://radonguardrockford.com/contact</loc>
+    <loc>https://radon-guard-rockford.vercel.app/contact</loc>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>

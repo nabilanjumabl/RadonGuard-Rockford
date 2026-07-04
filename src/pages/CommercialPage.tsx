@@ -35,9 +35,9 @@ export function CommercialPage() {
       <SEO
         pageKey="commercial"
         breadcrumbs={[
-          { name: 'Home', url: 'https://radonguardrockford.com/' },
-          { name: 'Services', url: 'https://radonguardrockford.com/services/commercial' },
-          { name: 'Commercial Testing', url: 'https://radonguardrockford.com/services/commercial' },
+          { name: 'Home', url: 'https://radon-guard-rockford.vercel.app/' },
+          { name: 'Services', url: 'https://radon-guard-rockford.vercel.app/services/commercial' },
+          { name: 'Commercial Testing', url: 'https://radon-guard-rockford.vercel.app/services/commercial' },
         ]}
         additionalSchema={faqSchema}
       />

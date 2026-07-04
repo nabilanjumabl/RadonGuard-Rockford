@@ -38,9 +38,9 @@ export function ShortTermTestingPage() {
       <SEO
         pageKey="shortTermTesting"
         breadcrumbs={[
-          { name: 'Home', url: 'https://radonguardrockford.com/' },
-          { name: 'Services', url: 'https://radonguardrockford.com/services/short-term-testing' },
-          { name: 'Short-Term Testing', url: 'https://radonguardrockford.com/services/short-term-testing' },
+          { name: 'Home', url: 'https://radon-guard-rockford.vercel.app/' },
+          { name: 'Services', url: 'https://radon-guard-rockford.vercel.app/services/short-term-testing' },
+          { name: 'Short-Term Testing', url: 'https://radon-guard-rockford.vercel.app/services/short-term-testing' },
         ]}
         additionalSchema={generateFAQSchema(testingFAQs)}
       />

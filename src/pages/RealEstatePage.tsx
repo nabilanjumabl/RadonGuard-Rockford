@@ -40,9 +40,9 @@ export function RealEstatePage() {
       <SEO
         pageKey="realEstate"
         breadcrumbs={[
-          { name: 'Home', url: 'https://radonguardrockford.com/' },
-          { name: 'Services', url: 'https://radonguardrockford.com/services/real-estate' },
-          { name: 'Real Estate Testing', url: 'https://radonguardrockford.com/services/real-estate' },
+          { name: 'Home', url: 'https://radon-guard-rockford.vercel.app/' },
+          { name: 'Services', url: 'https://radon-guard-rockford.vercel.app/services/real-estate' },
+          { name: 'Real Estate Testing', url: 'https://radon-guard-rockford.vercel.app/services/real-estate' },
         ]}
         additionalSchema={generateFAQSchema(realEstateFAQs)}
       />

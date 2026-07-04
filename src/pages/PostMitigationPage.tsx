@@ -38,9 +38,9 @@ export function PostMitigationPage() {
       <SEO
         pageKey="postMitigation"
         breadcrumbs={[
-          { name: 'Home', url: 'https://radonguardrockford.com/' },
-          { name: 'Services', url: 'https://radonguardrockford.com/services/post-mitigation' },
-          { name: 'Post-Mitigation Retesting', url: 'https://radonguardrockford.com/services/post-mitigation' },
+          { name: 'Home', url: 'https://radon-guard-rockford.vercel.app/' },
+          { name: 'Services', url: 'https://radon-guard-rockford.vercel.app/services/post-mitigation' },
+          { name: 'Post-Mitigation Retesting', url: 'https://radon-guard-rockford.vercel.app/services/post-mitigation' },
         ]}
         additionalSchema={faqSchema}
       />
