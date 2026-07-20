@@ -30,36 +30,39 @@ export function QABlock({ question, answer, bullets, numberedItems, children, de
         />
       </button>
 
-      {isOpen && (
-        <div className="px-5 pb-5 pt-0 border-t border-neutral-100">
-          <p className="text-neutral-700 leading-relaxed pt-4 mb-4">
-            {answer}
-          </p>
-          {bullets && bullets.length > 0 && (
-            <ul className="list-none space-y-2 text-neutral-700 mb-4">
-              {bullets.map((bullet, index) => (
-                <li key={index} className="flex items-start gap-2">
-                  <span className="w-1.5 h-1.5 bg-primary-500 rounded-full mt-2 flex-shrink-0" />
-                  <span className="leading-relaxed">{bullet}</span>
-                </li>
-              ))}
-            </ul>
-          )}
-          {numberedItems && numberedItems.length > 0 && (
-            <ol className="list-none space-y-2 text-neutral-700 mb-4">
-              {numberedItems.map((item, index) => (
-                <li key={index} className="flex items-start gap-3">
-                  <span className="w-6 h-6 bg-primary-100 text-primary-700 rounded-full flex items-center justify-center text-sm font-semibold flex-shrink-0">
-                    {index + 1}
-                  </span>
-                  <span className="leading-relaxed">{item}</span>
-                </li>
-              ))}
-            </ol>
-          )}
-          {children}
-        </div>
-      )}
+      <div
+        className={`px-5 border-t border-neutral-100 overflow-hidden transition-all duration-200 ${
+          isOpen ? 'max-h-[10000px] pb-5 pt-0 opacity-100' : 'max-h-0 pb-0 pt-0 opacity-0 border-t-0'
+        }`}
+        aria-hidden={!isOpen}
+      >
+        <p className="text-neutral-700 leading-relaxed pt-4 mb-4">
+          {answer}
+        </p>
+        {bullets && bullets.length > 0 && (
+          <ul className="list-none space-y-2 text-neutral-700 mb-4">
+            {bullets.map((bullet, index) => (
+              <li key={index} className="flex items-start gap-2">
+                <span className="w-1.5 h-1.5 bg-primary-500 rounded-full mt-2 flex-shrink-0" />
+                <span className="leading-relaxed">{bullet}</span>
+              </li>
+            ))}
+          </ul>
+        )}
+        {numberedItems && numberedItems.length > 0 && (
+          <ol className="list-none space-y-2 text-neutral-700 mb-4">
+            {numberedItems.map((item, index) => (
+              <li key={index} className="flex items-start gap-3">
+                <span className="w-6 h-6 bg-primary-100 text-primary-700 rounded-full flex items-center justify-center text-sm font-semibold flex-shrink-0">
+                  {index + 1}
+                </span>
+                <span className="leading-relaxed">{item}</span>
+              </li>
+            ))}
+          </ol>
+        )}
+        {children}
+      </div>
     </div>
   );
 }
