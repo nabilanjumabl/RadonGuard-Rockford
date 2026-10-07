@@ -89,9 +89,16 @@ export function Footer() {
           <div>
             <h4 className="font-semibold text-lg mb-4">Service Area</h4>
             <ul className="space-y-1 text-neutral-400">
-              {businessConfig.serviceAreas.map((area) => (
-                <li key={area}>{area}, IL</li>
-              ))}
+              {businessConfig.serviceAreas.map((area) => {
+                const slug = area.toLowerCase().replace(/\s+/g, '-');
+                return (
+                  <li key={area}>
+                    <Link to={`/locations/${slug}`} className="text-neutral-400 hover:text-white transition-colors">
+                      {area}, IL
+                    </Link>
+                  </li>
+                );
+              })}
             </ul>
           </div>
 
