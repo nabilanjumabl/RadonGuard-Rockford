@@ -12,6 +12,7 @@ import { RadonRiskCalculatorPage } from './pages/RadonRiskCalculatorPage';
 import { TestingCostEstimatorPage } from './pages/TestingCostEstimatorPage';
 import { MitigationCostCalculatorPage } from './pages/MitigationCostCalculatorPage';
 import { RetestTimingToolPage } from './pages/RetestTimingToolPage';
+import { TownPage } from './pages/TownPage';
 import { NotFoundPage } from './pages/NotFoundPage';
 
 export function AppRoutes() {
@@ -30,6 +31,7 @@ export function AppRoutes() {
       <Route path="/radon-testing-cost-calculator" element={<TestingCostEstimatorPage />} />
       <Route path="/radon-mitigation-cost-calculator" element={<MitigationCostCalculatorPage />} />
       <Route path="/radon-retest-calculator" element={<RetestTimingToolPage />} />
+      <Route path="/locations/:slug" element={<TownPage />} />
       <Route path="*" element={<NotFoundPage />} />
     </Routes>
   );
@@ -51,4 +53,12 @@ export const staticRoutes = [
   '/radon-testing-cost-calculator',
   '/radon-mitigation-cost-calculator',
   '/radon-retest-calculator',
+  '/locations/rockford',
+  '/locations/loves-park',
+  '/locations/machesney-park',
+  '/locations/roscoe',
+  '/locations/rockton',
+  '/locations/belvidere',
+  '/locations/cherry-valley',
+  '/locations/byron',
 ];
