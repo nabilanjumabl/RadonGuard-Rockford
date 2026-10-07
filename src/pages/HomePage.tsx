@@ -388,11 +388,18 @@ export function HomePage() {
             We provide radon testing and mitigation services throughout Rockford and the surrounding Winnebago County area. Whether you're in a century-old home near a historic district or a newer build on the north side toward Roscoe, radon risk isn't determined by neighborhood reputation or home price — it's determined by what's in the soil beneath the foundation.
           </p>
           <div className="flex flex-wrap gap-3">
-            {businessConfig.serviceAreas.map((area) => (
-              <span key={area} className="bg-white px-4 py-2 rounded-full text-sm font-medium text-neutral-700 shadow-sm border border-neutral-200">
-                {area}, IL
-              </span>
-            ))}
+            {businessConfig.serviceAreas.map((area) => {
+              const slug = area.toLowerCase().replace(/\s+/g, '-');
+              return (
+                <Link
+                  key={area}
+                  to={`/locations/${slug}`}
+                  className="bg-white px-4 py-2 rounded-full text-sm font-medium text-neutral-700 shadow-sm border border-neutral-200 hover:border-primary-400 hover:text-primary-700 transition-colors"
+                >
+                  {area}, IL
+                </Link>
+              );
+            })}
           </div>
           <p className="text-neutral-600 mt-4 text-sm">
             Zip codes: {businessConfig.zipCodes.join(', ')}
