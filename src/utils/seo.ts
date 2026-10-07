@@ -79,6 +79,46 @@ export const pageSEO: Record<string, SEOData> = {
     description: 'Free interactive radon tools for Rockford, IL. Estimate testing costs, mitigation costs, radon risk, and retest timing.',
     canonicalPath: '/tools',
   },
+  'town-rockford': {
+    title: 'Radon Testing & Mitigation in Rockford, IL | RadonGuard Rockford',
+    description: 'Radon testing and mitigation in Rockford, IL. Winnebago County Zone 1, oldest housing stock in the area (median built 1964). Licensed pros. Call (815) 555-0142.',
+    canonicalPath: '/locations/rockford',
+  },
+  'town-loves-park': {
+    title: 'Radon Testing & Mitigation in Loves Park, IL | RadonGuard Rockford',
+    description: 'Radon testing and mitigation in Loves Park, IL. Rock River valley homes, Zone 1 geology. Licensed Illinois radon professionals. Call (815) 555-0142.',
+    canonicalPath: '/locations/loves-park',
+  },
+  'town-machesney-park': {
+    title: 'Radon Testing & Mitigation in Machesney Park, IL | RadonGuard Rockford',
+    description: 'Radon testing and mitigation in Machesney Park, IL. Subdivision homes on Zone 1 glacial till. Licensed pros, 48-hour testing. Call (815) 555-0142.',
+    canonicalPath: '/locations/machesney-park',
+  },
+  'town-roscoe': {
+    title: 'Radon Testing & Mitigation in Roscoe, IL | RadonGuard Rockford',
+    description: 'Radon testing and mitigation in Roscoe, IL. Stateline growth area, Zone 1 — newer homes still test high. Licensed pros. Call (815) 555-0142.',
+    canonicalPath: '/locations/roscoe',
+  },
+  'town-rockton': {
+    title: 'Radon Testing & Mitigation in Rockton, IL | RadonGuard Rockford',
+    description: 'Radon testing and mitigation in Rockton, IL. Historic river village, century-old foundations, Zone 1. Licensed pros. Call (815) 555-0142.',
+    canonicalPath: '/locations/rockton',
+  },
+  'town-belvidere': {
+    title: 'Radon Testing & Mitigation in Belvidere, IL | RadonGuard Rockford',
+    description: 'Radon testing and mitigation in Belvidere, IL. Boone County is EPA Zone 1 too. Licensed Illinois radon professionals. Call (815) 555-0142.',
+    canonicalPath: '/locations/belvidere',
+  },
+  'town-cherry-valley': {
+    title: 'Radon Testing & Mitigation in Cherry Valley, IL | RadonGuard Rockford',
+    description: 'Radon testing and mitigation in Cherry Valley, IL. I-90 corridor village, well-water radon expertise, Zone 1. Call (815) 555-0142.',
+    canonicalPath: '/locations/cherry-valley',
+  },
+  'town-byron': {
+    title: 'Radon Testing & Mitigation in Byron, IL | RadonGuard Rockford',
+    description: 'Radon testing and mitigation in Byron, IL. Ogle County Zone 1, historic downtown, well-water testing. Licensed pros. Call (815) 555-0142.',
+    canonicalPath: '/locations/byron',
+  },
 };
 
 // Generate BreadcrumbList schema
